@@ -1,0 +1,70 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8fbfd; /* very light blue */
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #e6fff5; /* pale green */
+  padding: 2em 1em;
+  text-align: center;
+  border-bottom: 3px solid #00b96b; /* bright green from Sogo */
+}
+
+header h1 {
+  margin: 0;
+  color: #00b96b;
+}
+
+header p {
+  font-style: italic;
+  color: #444;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #006ba6;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #004c75;
+}
+
+main {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+}
+
+h2 {
+  color: #00b96b;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3em;
+}
+
+a {
+  color: #006ba6;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  padding: 1em;
+  background-color: #e6fff5;
+  margin-top: 3em;
+}
